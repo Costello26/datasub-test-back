@@ -1,0 +1,25 @@
+{
+  "name": "datasub-test-back",
+  "version": "1.0.0",
+  "description": "Small application for developer skills testing",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": ""
+  },
+  "keywords": ["fintech", "mongodb", "data storing"],
+  "author": "Firdavs Ergashev <firdavsergashev2001@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "eslint": "^8.11.0",
+    "nodemon": "^2.0.15"
+  }
+}
