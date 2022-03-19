@@ -9,10 +9,15 @@
     "start": "node src/index.js",
     "test": ""
   },
-  "keywords": ["fintech", "mongodb", "data storing"],
+  "keywords": [
+    "fintech",
+    "mongodb",
+    "data storing"
+  ],
   "author": "Firdavs Ergashev <firdavsergashev2001@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.3",
     "mongoose": "^6.2.7",
     "morgan": "^1.10.0"

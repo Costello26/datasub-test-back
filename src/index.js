@@ -1,5 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
+import cors from "cors";
 import config from "./config/index.js";
 import cardRoutes from "./Card/card.routes.js";
 import errorHandler from "./util/errorHandler.js";
@@ -8,7 +9,7 @@ class App {
     main() {
         const app = express();
         app.use(express.json());
-
+        app.use(cors())
 
         app.use('/api/cards/', cardRoutes);
         app.use(errorHandler);
